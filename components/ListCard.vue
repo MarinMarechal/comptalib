@@ -37,7 +37,7 @@ export default {
     }
 
     &:hover {
-        // transform: scale(1.03);
+        transform: scale(1.03);
         transition: 300ms;
     }
 }

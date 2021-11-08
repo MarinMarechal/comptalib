@@ -37,7 +37,6 @@ export default {
     },
     methods: {
         addPokedex() {
-            // console.log(this.pokemon);
             this.$store.dispatch("addPokedex", this.pokemon);
         }
     },
@@ -46,7 +45,6 @@ export default {
 
 <style lang="scss" scoped>
 .pokemon_page {
-    // background-color: $blue;
     height: 100vh;
     width: 100vw;
     padding-top: 30px;
